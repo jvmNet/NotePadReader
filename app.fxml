@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notePad.Controller">
+   <children>
+      <Button fx:id="button" layoutX="318.0" layoutY="14.0" mnemonicParsing="false" onAction="#openFileButton" prefHeight="42.0" prefWidth="268.0" text="Open file" />
+      <TextField fx:id="inputFileName" layoutX="16.0" layoutY="14.0" onAction="#getFileName" prefHeight="42.0" prefWidth="268.0" />
+      <ListView fx:id="listView" layoutX="16.0" layoutY="69.0" prefHeight="615.0" prefWidth="571.0" />
+   </children>
+</AnchorPane>
